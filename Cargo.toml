@@ -1,0 +1,8 @@
+[package]
+name = "elliptic-curves"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rpolynomial={git="https://github.com/varun-doshi/rpolynomial.git", branch = "main"}
+modc={git="https://github.com/varun-doshi/modc.git", branch = "next"}
