@@ -45,14 +45,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a81dae078cea95a014a339291cec439d2f232ebe854a9d672b796c6afafa9b7"
 
 [[package]]
-name = "elliptic-curves"
-version = "0.1.0"
-dependencies = [
- "modc",
- "rpolynomial",
-]
-
-[[package]]
 name = "equivalent"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -116,7 +108,7 @@ checksum = "a0eb5a3343abf848c0984fe4604b2b105da9539376e24fc0a3b0007411ae4fd9"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.90",
+ "syn 2.0.91",
 ]
 
 [[package]]
@@ -144,7 +136,7 @@ checksum = "78ca9ab1a0babb1e7d5695e3530886289c18cf2f87ec19a575a0abdce112e3a3"
 [[package]]
 name = "modc"
 version = "0.1.0"
-source = "git+https://github.com/varun-doshi/modc.git?branch=next#2c1fbf53817f69d216b2884d7b1d4d1472166108"
+source = "git+https://github.com/varun-doshi/modc.git?branch=next#69f01df692adc2eea6d8f05c1c5af25dc1defcaf"
 dependencies = [
  "primitive-types",
 ]
@@ -259,6 +251,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "relliptic"
+version = "0.1.0"
+dependencies = [
+ "modc",
+ "primitive-types",
+ "rpolynomial",
+]
+
+[[package]]
 name = "rpolynomial"
 version = "0.1.0"
 source = "git+https://github.com/varun-doshi/rpolynomial.git?branch=main#4dfbc23cecfa452b3ac97442d8a87550f5462626"
@@ -290,7 +291,7 @@ checksum = "46f859dbbf73865c6627ed570e78961cd3ac92407a2d117204c49232485da55e"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.90",
+ "syn 2.0.91",
 ]
 
 [[package]]
@@ -312,9 +313,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.90"
+version = "2.0.91"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "919d3b74a5dd0ccd15aeb8f93e7006bd9e14c295087c9896a110f490752bcf31"
+checksum = "d53cbcb5a243bd33b7858b1d7f4aca2153490815872d86d955d6ea29f743c035"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -404,5 +405,5 @@ checksum = "fa4f8080344d4671fb4e831a13ad1e68092748387dfc4f55e356242fae12ce3e"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.90",
+ "syn 2.0.91",
 ]
