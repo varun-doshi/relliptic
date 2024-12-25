@@ -13,3 +13,7 @@ Current Finite Field Operations: </br>
 
 
 Check the `tests` folder to understand how to use
+
+Uses the following custom built crates:
+- [Fintie Field](https://github.com/varun-doshi/modc) </br> 
+- [Polynomial](https://github.com/varun-doshi/rpolynomial) </br> 
