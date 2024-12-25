@@ -2,6 +2,12 @@
 name = "relliptic"
 version = "0.1.0"
 edition = "2021"
+authors = ["Varun Doshi"]
+description = "Finite Field Elliptic Curves in rust"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/varun-doshi/R-elliptic.git"
+repository = "https://github.com/varun-doshi/R-elliptic.git"
+readme = "README.md"
 
 [dependencies]
 rpolynomial = { git = "https://github.com/varun-doshi/rpolynomial.git", branch = "main"}
