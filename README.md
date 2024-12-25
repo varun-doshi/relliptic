@@ -4,7 +4,7 @@
 
 RElliptic is an ongoing Finite Field Elliptic Curves in Rust. 
 
-Current Finite Field Operations: </br>
+Current ECC Operations: </br>
 ✅ Point Creation </br>
 ✅ Addition </br>
 ✅ Subtraction </br>
