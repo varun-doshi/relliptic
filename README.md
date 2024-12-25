@@ -1,8 +1,8 @@
-# RElliptic : Rust implementation of Finite Field Elliptic Curves
+# RELLIPTIC : Rust implementation of Finite Field Elliptic Curves
 
 ### Warning: This is strcitly for learning purposes currently and should not be used in any production environment
 
-RElliptic is an ongoing Finite Field Elliptic Curves in Rust. 
+RELLIPTIC is an ongoing Finite Field Elliptic Curves in Rust. 
 
 Current ECC Operations: </br>
 ✅ Point Creation </br>

@@ -5,8 +5,8 @@ edition = "2021"
 authors = ["Varun Doshi"]
 description = "Finite Field Elliptic Curves in rust"
 license = "MIT OR Apache-2.0"
-homepage = "https://github.com/varun-doshi/R-elliptic.git"
-repository = "https://github.com/varun-doshi/R-elliptic.git"
+homepage = "https://github.com/varun-doshi/relliptic.git"
+repository = "https://github.com/varun-doshi/relliptic.git"
 readme = "README.md"
 
 [dependencies]
